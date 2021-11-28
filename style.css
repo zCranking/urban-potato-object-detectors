@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,900&family=Monofett&display=swap');
+body{
+    background: url("background.jpg");
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#header{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Exo 2', sans-serif;
+    color: #FE5D26;
+    text-shadow: 5px 5px #9E3A18;    
+}
+.button-div{
+    background-color: #FE855C;
+    margin-left: 35%;
+    margin-top: 1em;
+    height: 10%;
+    width: 30%;
+    font-size: 60px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Exo 2', sans-serif;
+    text-shadow: 3px 3px #FE5D26;
+    color: #FDE95C;
+}
