@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Exo+2:ital,wght@1,900&family=Monofett&display=swap');
+body{
+    background-image: url("");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#h1{
+font-size: 70px;
+background: #BA181B;
+color: #B1A7A6;
+text-shadow: 2px 2px#A4161A;
+font-family: 'Cinzel', serif;
+height: transfrom;
+width: 700px;
+border-radius: 25px;
+margin-top: 10px;    
+margin-right: 600px;
+}
+
+#status
+{
+font-size: 30px;
+background-color: lightgreen;
+border-radius: 10px;
+width: 50%;
+
+}
+#back,#h1{
+    display: inline-block;
+}
+#back{
+    color: #F5F3F4;
+    background-color:#A4161A;
+    border-color: #A4161A;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    margin-right: 300px;
+    cursor: not-allowed;
+    
+}
+canvas{
+    border-width: 5px;
+    border-color: black;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 5px;
+}
+#copyright_footer{
+    position: fixed;
+    color: rgb(218, 252, 224);
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(115, 130, 118);
+    line-height: 3;
+    text-align: center;
+}
