@@ -1,5 +1,5 @@
 function item_1(){
-    window.location.pathname = "item_1/item_1.html";
+    window.location.pathname = "urban-potato-object-detectors/item_1/item_1.html";
 }
 function item_2(){
     window.location = "item_2.html";
