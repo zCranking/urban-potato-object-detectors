@@ -2,7 +2,7 @@ function item_1(){
     window.location.pathname = "urban-potato-object-detectors/item_1/item_1.html";
 }
 function item_2(){
-    window.location = "item_2.html";
+    window.location = "urban-potato-object-detectors/item_2/item_2.html";
 }
 function item_3(){
     window.location = "item_3.html";
