@@ -4,11 +4,11 @@ function back(){
     history.back();
 }
 function preload(){
-    img = loadImage('item_1.jpg');
+    img = loadImage('photo_testing.jpg');
 }
 function setup(){
-    canvas = createCanvas(800, 700);
-    canvas.position(550, 170);
+    canvas = createCanvas(1000, 700);
+    canvas.position(450, 170);
     objectDetector = ml5.objectDetector('cocossd', modelLoaded);
     document.getElementById("status").innerHTML = "Status: Detecting Objects";
 }
@@ -25,7 +25,7 @@ function gotResult(error, results){
     objects = results;
 }
 function draw(){
-    image(img, 0, 0, 800, 700);
+    image(img, 0, 0, 1000, 700);
     if(Status != ""){
         for(var i=0; i<objects.length; i++){
             z = i + 1;
