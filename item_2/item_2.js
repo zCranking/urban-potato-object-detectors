@@ -29,7 +29,7 @@ function draw(){
     if(Status != ""){
         for(var i=0; i<objects.length; i++){
             z = i + 1;
-            document.getElementById("status").innerHTML = "Status: Detected. I have found " + z + " objects.";
+            document.getElementById("status").innerHTML = "Status: Detected. I have found " + z + " objects. Out of 5 possible objects.";
             confidence = floor(objects[i].confidence * 100);
             fill("#F49D37");
             textSize(20);
